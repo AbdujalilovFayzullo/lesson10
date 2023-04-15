@@ -1,0 +1,25 @@
+.info{
+    background: #012F34;
+    height: 437px;
+    &__title{
+        font-family: 'Livvic';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 48px;
+        text-align: center;
+        color: #FFFFFF;
+        padding-top: 140px;
+        padding-bottom: 64px;
+    }
+    &__block{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__bgimg{
+        position: absolute;
+        left: 0;
+        top: 1519px;
+    }
+}

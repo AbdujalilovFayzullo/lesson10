@@ -1,0 +1,38 @@
+.ready{
+    background: #F67E7E;
+
+    &__title{
+        font-family: 'Livvic';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 48px;
+        color: #012F34;
+        padding: 76px 0;
+    }
+    &__btn{
+        font-family: 'Livvic';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28px;
+        color: #012F34;
+        border: 2px solid #012F34;
+        border-radius: 24px;
+        padding: 10px 33px;
+            &:active{
+                background-color: #012F34;
+                color: #ffffff;
+            }
+    }
+    &__block{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__img{
+        position: absolute;
+        left: 0;
+        top: 2012px;
+    }
+}

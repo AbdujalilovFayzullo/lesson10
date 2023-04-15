@@ -1,0 +1,229 @@
+.header{
+    background: #014E56;
+    height: 789px;
+    &__block{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 73px;
+    }
+    &__list{
+        display: flex;
+        gap: 40px;
+        margin-right: 450px;
+    }
+    &__link{
+        font-family: 'Livvic';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28px;
+        color: #FFFFFF;
+            &:active{
+                color: #F67E7E;
+            }
+    }
+    &__btn{
+        font-family: 'Livvic';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28px;
+        color: #FFFFFF;
+        border-radius: 24px;
+        border: 2px solid #FFFFFF;
+        padding: 10px 33px;
+            &:active{
+                background-color: #FFFFFF;
+                color: black;
+            }
+    }
+    .contact__title{
+        font-family: 'Livvic';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 100px;
+        color: #FFFFFF;
+        padding-top: 120px;
+    }
+    .contact__text{
+        font-family: 'Livvic';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 48px;
+        color: #F67E7E;
+        padding-bottom: 32px;
+    }
+    .contact__item_block{
+        display: flex;
+        align-items: center;
+        gap: 23px;
+    }
+    .contact__item_text{
+        font-family: 'Livvic';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+        color: #FFFFFF;
+    }
+    .contact__block{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .input1{
+            &:hover{
+                color: black;
+                background-color: #F67E7E;
+            }
+        display: block;
+        font-family: 'Livvic';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 25px;
+        letter-spacing: -0.115385px;
+        color: #FFFFFF;
+        mix-blend-mode: normal;
+        opacity: 0.6;
+        border: none;
+        padding-bottom: 16px;
+        width: 540px;
+        height: 1px;
+        padding-top: 16px;
+        padding-left: 14px;
+        background: #014E56;
+        border: none;
+    }
+    .input2{
+        &:hover{
+            color: black;
+            background-color: #F67E7E;
+        }
+        display: block;
+        font-family: 'Livvic';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 25px;
+        letter-spacing: -0.115385px;
+        color: #FFFFFF;
+        mix-blend-mode: normal;
+        opacity: 0.6;
+        width: 540px;
+        height: 1px;
+        padding-top: 24px;
+        padding-bottom: 16px;
+        padding-left: 14px;
+        background: #014E56;
+        border: none;
+    }
+    .input3{
+        &:hover{
+            color: black;
+            background-color: #F67E7E;
+        }
+        display: block;
+        font-family: 'Livvic';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 25px;
+        letter-spacing: -0.115385px;
+        color: #FFFFFF;
+        mix-blend-mode: normal;
+        opacity: 0.6;
+        width: 540px;
+        height: 1px;
+        padding-top: 24px;
+        padding-bottom: 16px;
+        padding-left: 14px;
+        background: #014E56;
+        border: none;
+    }
+    .input4{
+        &:hover{
+            color: black;
+            background-color: #F67E7E;
+        }
+        display: block;
+        font-family: 'Livvic';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 25px;
+        letter-spacing: -0.115385px;
+        color: #FFFFFF;
+        mix-blend-mode: normal;
+        opacity: 0.6;
+        padding-top: 24px;
+        padding-bottom: 17px;
+        padding-left: 14px;
+        width: 540px;
+        height: 1px;
+        background: #014E56;
+        border: none;
+
+    }
+    .input5{
+        &:hover{
+            color: black;
+            background-color: #F67E7E;
+        }
+        display: block;
+        font-family: 'Livvic';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 25px;
+        letter-spacing: -0.115385px;
+        color: #FFFFFF;
+        mix-blend-mode: normal;
+        opacity: 0.6;
+        padding-top: 24px;
+        padding-bottom: 58px;
+        padding-left: 14px;
+        width: 540px;
+        height: 1px;
+        background: #014E56;
+        border: none;
+    }
+    .input__span{
+        width: 540px;
+        height: 1px;
+        background-color: #ffffff;
+        display: block;
+        margin-top: 15px;
+    }
+    .btn{
+        font-family: 'Livvic';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28px;      
+        color: #004047;
+        padding: 10px 32px;
+        background: #FFFFFF;
+        border: 2px solid #FFFFFF;
+        border-radius: 24px;
+        margin-top: 20px;
+        cursor: pointer;
+        border: none;
+    }
+    .input__block{
+        margin-top: 120px;
+    }
+    .contact__position_img{
+        position: absolute;
+        left: 0;
+        top: 245px;
+    }
+    .contact__position_imgg{
+        position: absolute;
+        right: 0;
+        top: 563px;
+    }
+}
